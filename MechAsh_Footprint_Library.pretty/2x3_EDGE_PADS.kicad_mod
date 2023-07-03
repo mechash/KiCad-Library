@@ -1,0 +1,20 @@
+(footprint "2x3_EDGE_PADS" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -15.2 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp e3fabd4c-4de0-4a07-925d-7935a3e0b81a)
+  )
+  (fp_text value "2x3_EDGE_PADS" (at 0 -13.7 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 34ee97ad-dd07-4885-8a92-f4dd4252a43b)
+  )
+  (fp_text user "${REFERENCE}" (at 0 -12.2 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp fb74c69a-3e04-44f7-88cb-291a1393170e)
+  )
+  (pad "1" thru_hole circle (at -0.6 -0.3) (size 0.6 0.6) (drill 0.3) (layers "*.Cu" "*.Mask") (tstamp d5990bc5-2399-430e-9ce8-f559939a887b))
+  (pad "1" thru_hole circle (at 0 -0.3) (size 0.6 0.6) (drill 0.3) (layers "*.Cu" "*.Mask") (tstamp a07f7a31-c193-47b6-a2c6-2f258dc3ffa5))
+  (pad "1" thru_hole roundrect (at 0 1.5) (size 2 3.0254) (drill oval 1 1.6 (offset 0 -0.6873)) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp f482795b-55d7-438d-b964-4f4c137f0aa6))
+  (pad "1" thru_hole circle (at 0.6 -0.3) (size 0.6 0.6) (drill 0.3) (layers "*.Cu" "*.Mask") (tstamp a0ba7229-31f4-43f3-9789-817f67834a74))
+)

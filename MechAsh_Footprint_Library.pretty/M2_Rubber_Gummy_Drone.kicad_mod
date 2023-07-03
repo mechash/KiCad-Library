@@ -1,0 +1,22 @@
+(footprint "M2_Rubber_Gummy_Drone" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole exclude_from_bom)
+  (fp_text reference "REF**" (at 0 -12.2 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 95c21a24-6957-4181-9241-71beb70b8c2c)
+  )
+  (fp_text value "M2_Rubber_Gummy_Drone" (at 0 -10.7 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 720d29e0-3dd6-411e-9570-a34915a8b16d)
+  )
+  (fp_text user "${REFERENCE}" (at 0 -9.2 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp f74d49c3-ab31-493d-bdec-deb946685a74)
+  )
+  (pad "0" thru_hole circle (at 0 0) (size 4.5 4.5) (drill 2.5) (layers "*.Cu" "*.Mask") (tstamp d0ce7154-dee9-427a-b3bc-92c4d190cd2c))
+  (model "C:/Users/MechAsh/Downloads/rubber_gummy_m2.step"
+    (offset (xyz 0 0 -4.07))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

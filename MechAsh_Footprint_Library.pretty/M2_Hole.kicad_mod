@@ -1,0 +1,19 @@
+(footprint "M2_Hole" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0.325 5.75 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 49d35894-09be-45ef-b633-92797e28693b)
+  )
+  (fp_text value "M2_Hole" (at 0.325 7.25 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6f4a64b0-58ce-408b-8675-c5b2a0dc947e)
+  )
+  (fp_text user "${REFERENCE}" (at 0.325 8.75 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp bc795a1f-7a0f-4ab5-90e7-30ed67429296)
+  )
+  (fp_circle (center 0 0) (end 1.75 0)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp a7664a59-d10a-4aae-ac5d-7258b5e7df94))
+  (pad "" np_thru_hole circle (at 0 0) (size 3 3) (drill 2.1) (layers "F&B.Cu" "*.Mask") (tstamp 580ff184-d89c-449b-a9b2-cfd4f44a9bec))
+)
